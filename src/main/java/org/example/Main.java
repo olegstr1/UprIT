@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Введіть своє (або не своє) ім'я!\n"+
-                "Можеш ввести ім'я Taras...\n"+
+                "Можеш ввести ім'я Oksana...\n"+
                 "Можеш ввести його ангійською....\n");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
@@ -24,11 +24,11 @@ public class Main {
 
     public static String IsOksana (String a) {
         String s = new String();
-        if(a.equals("Taras")){
-            s = "Wow! You are Taras!";
+        if(a.equals("Oksana")){
+            s = "Wow! You are Oksana!";
         }
         else{
-            s = "Meh... You are not Taras...";
+            s = "Meh... You are not Oksana...";
         }
         return s;
     }
