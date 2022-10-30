@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введіть своє (або не своє) ім'я!\n"+
+        System.out.println("Введіть своє ім'я!\n"+
                 "Можеш ввести ім'я Oksana...\n"+
                 "Можеш ввести його ангійською....\n");
         Scanner scanner = new Scanner(System.in);
